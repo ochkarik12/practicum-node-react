@@ -1,0 +1,21 @@
+html, body, div, span, h1, h2, h3, p {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;  
+    vertical-align: baseline;  
+}  
+
+
+
+@font-face {  
+    font-family: 'Railway';  
+    src: url('/fonts/Railway/Railway.otf') format('opentype');  
+}  
+
+body {  
+    font-family: 'Railway', sans-serif; 
+    min-width: 800px; 
+    
+}  
