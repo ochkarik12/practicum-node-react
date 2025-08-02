@@ -1,0 +1,51 @@
+header{
+    background-color: brown;
+    margin: 92px 24px 96px;
+    height: 105px;
+    width: 1052px;
+    display: flex;
+}
+
+.menu{
+
+}
+
+.logo{
+    
+}
+
+.adress{
+    
+}
+
+.cover{
+    background-color: brown;
+    height: 757px;
+    margin-bottom: 179px;
+}
+
+.lots{
+    background-color: brown;
+    margin: 0 24px;
+    height: 692px;
+    width: 1052px;
+    margin-bottom: 146px;
+}
+
+.about{
+    background-color: brown;
+    margin: 0 24px;
+    margin-bottom: 180px;
+    height: 595px;
+    width: 1052px;
+
+}
+
+footer{
+    background-color: brown;
+    margin: 0 50px;
+    margin-bottom: 88px;
+    height: 98px;
+    width: 1000px;
+   
+}
