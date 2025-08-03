@@ -7,6 +7,12 @@
     <div class="js-container"></div>
     <div class="js-container1"></div>
     <div class="js-container2"></div>
+    <div class="js-container3"></div>
+    <div class="js-container4"></div>
+    <div class="js-container5"></div>
+    <div class="js-container6"></div>
+    <div class="js-container7"></div>
+    <div class="js-container8"></div>
 
     
 
@@ -14,6 +20,9 @@
     <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
 
     <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    
+    <script src="https://unpkg.com/supersimpledev@8.6.4/dayjs.js"></script>
+
     <script type="text/babel">
 
       const button = <button>good job</button>;
@@ -26,9 +35,33 @@
           <p>Cotton socks</p>
           <p>Price: $10</p>
           <button>Add to cart</button>
+
           
         </div>
       );
+
+      const productCost = 10 + 2*8
+      const shippingCost = 5
+      const totalCost = productCost + shippingCost
+
+      const prCost = <p>Product cost: $ {productCost}</p>
+   
+
+      const cost = (
+        
+        <div>
+        <br /><br />
+        <p>Product cost: $ {productCost} </p>
+        <p>Shipping cost: $ {shippingCost} </p>
+        <p>Total cost: $ {totalCost} </p>
+        
+        </div>
+      );
+      console.log(dayjs().format('MMMM D'))
+
+      const toDay = <p>Today is: {dayjs().format('MMMM D')}</p>
+      const currentTime = <p>Current time is: {dayjs().format('HH:mm:ss')}</p>
+    
 
       const container = document.querySelector('.js-container');
       ReactDOM.createRoot(container).render(button);
@@ -38,6 +71,18 @@
       
       const container2 = document.querySelector('.js-container2');
       ReactDOM.createRoot(container2).render(div);
+
+      const container3 = document.querySelector('.js-container3');
+      ReactDOM.createRoot(container3).render(prCost);
+
+      const container4 = document.querySelector('.js-container4');
+      ReactDOM.createRoot(container4).render(cost);
+
+      const container5 = document.querySelector('.js-container5');
+      ReactDOM.createRoot(container5).render(toDay);
+
+      const container6 = document.querySelector('.js-container6');
+      ReactDOM.createRoot(container6).render(currentTime);
 
     </script>
   </body>
