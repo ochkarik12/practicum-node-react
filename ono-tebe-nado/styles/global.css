@@ -10,7 +10,7 @@ html, body, div, span, h1, h2, h3, p {
 
 
 @font-face {  
-    font-family: 'Railway';  
+    font-family: 'Railway', serif;   
     src: url('/fonts/Railway/Railway.otf') format('opentype');  
 }  
 
@@ -21,11 +21,15 @@ body {
 }  
 
 .container {
-    background-color: blue;
+    background-color: rgb(222, 222, 234);
     height: 3028px;
     width: 1100px;
     margin: auto;
     display: flex;
     flex-direction: column;
     
+}
+
+.underline {
+    text-decoration: underline;
 }

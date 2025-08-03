@@ -4,18 +4,27 @@ header{
     height: 105px;
     width: 1052px;
     display: flex;
+    font-size: 18px;
+    align-items: center;
+    font-weight: lighter ;
 }
 
 .menu{
-
+    margin-left: 27px;
+    margin-right: 25px;
+   
 }
 
 .logo{
+    box-sizing: content-box;
+    height: 100%;
     
 }
 
 .adress{
     
+    margin-left: auto;
+    margin-right: 25px;
 }
 
 .cover{
