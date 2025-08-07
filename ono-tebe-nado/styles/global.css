@@ -17,6 +17,7 @@ html, body, div, span, h1, h2, h3, p {
 body {  
     font-family: 'Railway', sans-serif; 
     min-width: 800px; 
+    box-sizing: content-box;
     
 }  
 
