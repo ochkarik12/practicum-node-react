@@ -168,6 +168,8 @@ header{
     text-decoration: underline;
     text-transform: uppercase;
     margin: 51px 40px auto;
+    font-weight: bold;
+    opacity: 0.9;
 }
 
 .cardp{
@@ -176,6 +178,8 @@ header{
     color: white;
     font-size: 20px;
     font-weight: normal;
+    line-height: 1.2em;
+    opacity: 0.8;
 }
 
 .lots-bottom{
