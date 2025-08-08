@@ -168,8 +168,8 @@ header{
     text-decoration: underline;
     text-transform: uppercase;
     margin: 51px 40px auto;
-    font-weight: bold;
-    opacity: 0.9;
+    font-weight: 500;
+    opacity: 1;
 }
 
 .cardp{
@@ -177,7 +177,7 @@ header{
     margin: auto 40px 48px;
     color: white;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 100;
     line-height: 1.2em;
     opacity: 0.8;
 }
@@ -195,6 +195,41 @@ header{
     margin-bottom: 180px;
     height: 595px;
     width: 1052px;
+    display: flex;
+    color: ;
+
+}
+
+.about-logo{
+    background-image: url(../images/logo-column.png);
+    width: 240px;
+    height: 240px;
+    margin: 35px 0 0 47px;
+
+}
+
+.about-body{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: 133px;
+    width: 693px;
+    height: 449px;
+    background-color: blueviolet;
+
+}
+
+.about-header{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-body1{
+
+}
+
+.about-body2{
 
 }
 

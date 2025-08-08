@@ -4,17 +4,20 @@ html, body, div, span, h1, h2, h3, p {
     border: 0;  
     font-size: 100%;  
     font: inherit;  
-    vertical-align: baseline;  
+    vertical-align: baseline; 
+    
 }  
 
 
 
 @font-face {  
-    font-family: 'Railway', serif;   
-    src: url('/fonts/Railway/Railway.otf') format('opentype');  
+    font-family: 'Railway', sans-serif;   
+    src: url('/fonts/Railway-variable/Raleway-Italic-VariableFont_wght.ttf') format('truetype');  
+    src: url('/fonts/Railway-variable/Raleway-VariableFont_wght.ttf') format('truetype'), url('/fonts/Railway-variable/static/Raleway-Light.ttf') format('truetype');
 }  
 
 body {  
+    background-color: rgb(222, 222, 234);
     font-family: 'Railway', sans-serif; 
     min-width: 800px; 
     box-sizing: content-box;
@@ -22,7 +25,7 @@ body {
 }  
 
 .container {
-    background-color: rgb(222, 222, 234);
+    background-color: rgb(255, 255, 255);
     height: 3028px;
     width: 1100px;
     margin: auto;
