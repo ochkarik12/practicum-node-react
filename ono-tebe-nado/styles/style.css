@@ -190,13 +190,13 @@ header{
 }
 
 .about{
-    background-color: brown;
+    
     margin: 0 24px;
     margin-bottom: 180px;
     height: 595px;
     width: 1052px;
     display: flex;
-    color: ;
+    
 
 }
 
@@ -215,7 +215,7 @@ header{
     margin-top: 133px;
     width: 693px;
     height: 449px;
-    background-color: blueviolet;
+    
 
 }
 
@@ -223,14 +223,20 @@ header{
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 
 .about-body1{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 24px;
+    opacity: 0.9;
 
 }
 
 .about-body2{
-
+    font-size: 20px;
+    opacity: 0.9;
 }
 
 footer{
@@ -239,5 +245,36 @@ footer{
     margin-bottom: 88px;
     height: 98px;
     width: 1000px;
+    display: flex;
    
+}
+
+.footer-adress{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 98px;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+
+.footer-adress-txt1{
+
+}
+
+.footer-adress-txt2{
+
+}
+
+.footer-adress-txt3{
+      padding: 0 60px 0 0;
+
+}
+.footer-menu{
+
+}
+
+.footer-social{
+    
 }
