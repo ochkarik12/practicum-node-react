@@ -240,26 +240,29 @@ header{
 }
 
 footer{
-    background-color: brown;
+    
     margin: 0 50px;
     margin-bottom: 88px;
     height: 98px;
-    width: 1000px;
+    width: 1029px;
     display: flex;
+    font-size: 18px;
+    font
    
 }
 
 .footer-adress{
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 297px;
     height: 98px;
-    margin-top: 15px;
-    margin-left: 30px;
+    
+    padding: 15px 30px 0px;
 
 }
 
 .footer-adress-txt1{
+    
 
 }
 
@@ -272,9 +275,39 @@ footer{
 
 }
 .footer-menu{
-
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer-social{
+    display: flex;
+    height: 48px;
+    width: 240px;
+    
+    justify-content: space-between;
+}
+
+.footer-social-icons{
+    width: 48px;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    
+}
+
+.footer-social-icons-im1{
+   
+   
+}
+
+.footer-social-icons-im1{
+    
+}
+.footer-social-icons-im1{
     
 }

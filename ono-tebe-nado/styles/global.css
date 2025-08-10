@@ -14,6 +14,10 @@ html, body, div, span, h1, h2, h3, p {
     font-family: 'Railway', sans-serif;   
     src: url('/fonts/Railway-variable/Raleway-Italic-VariableFont_wght.ttf') format('truetype');  
     src: url('/fonts/Railway-variable/Raleway-VariableFont_wght.ttf') format('truetype'), url('/fonts/Railway-variable/static/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;
+
 }  
 
 body {  
